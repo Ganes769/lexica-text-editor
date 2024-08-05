@@ -1,0 +1,34 @@
+{
+  "name": "@lexical/react-rich-example",
+  "private": true,
+  "version": "0.15.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lexical/headless": "^0.16.0",
+    "@lexical/html": "^0.16.0",
+    "@lexical/react": "^0.16.0",
+    "@lexical/table": "^0.16.0",
+    "axios": "^1.7.2",
+    "katex": "^0.16.10",
+    "lexical": "^0.16.0",
+    "lodash.debounce": "^4.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-katex": "^3.0.1",
+    "sanitize-html": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.9",
+    "@types/react": "^18.2.59",
+    "@types/react-color": "^3.0.12",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.11"
+  }
+}

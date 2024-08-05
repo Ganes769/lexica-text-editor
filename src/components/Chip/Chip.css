@@ -1,0 +1,49 @@
+.chip {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 24px;
+  padding: 8px;
+  font-size: 14px;
+  margin: 12px;
+}
+
+.chip-text {
+  margin-right: 8px;
+}
+
+.chip-delete {
+  background: none;
+  border: none;
+  color: #8c8c8c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.chip-delete:hover {
+  color: black;
+}
+
+i.plus-icon {
+  background-image: url(/public/icons/add-sign.svg);
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+}
+.remove-file {
+  background-color: transparent;
+  border-radius: 100%;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/public/icons/close.svg);
+  height: 16px;
+  cursor: pointer;
+  border: none;
+  width: 16px;
+}

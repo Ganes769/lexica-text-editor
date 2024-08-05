@@ -1,0 +1,78 @@
+.image-upload-container {
+  margin: 0 auto;
+  margin-top: 2rem; /* Tailwind mt-8 */
+}
+
+.label {
+  margin-bottom: 0.75rem; /* Tailwind mb-3 */
+  color: var(--primary-color); /* Tailwind text-primary */
+  font-weight: 600; /* Tailwind font-semibold */
+}
+
+.upload-wrapper {
+  max-width: 32rem; /* Tailwind max-w-lg */
+  margin: 0 auto;
+}
+
+.upload__container {
+  overflow: hidden;
+  width: 200px;
+  height: 150px;
+  border-style: dotted; /* Tailwind border-dotted */
+  border-width: 2px; /* Tailwind border-2 */
+  border-color: #d1d5db; /* Tailwind border-gray-300 */
+  border-radius: 0.5rem; /* Tailwind rounded-lg */
+  padding: 1.25rem; /* Tailwind p-5 */
+  text-align: center; /* Tailwind text-center */
+  cursor: pointer; /* Tailwind cursor-pointer */
+  position: relative; /* Tailwind relative */
+  display: flex; /* Tailwind flex */
+  flex-wrap: wrap; /* Tailwind flex-wrap */
+}
+
+.file-preview {
+  justify-content: center;
+  background-color: #f3f4f6; /* Tailwind bg-gray-100 */
+  display: flex; /* Tailwind flex */
+  align-items: center; /* Tailwind items-center */
+  padding-left: 0.5rem; /* Tailwind pl-2 */
+  border-radius: 0.5rem; /* Tailwind rounded-lg */
+  position: relative; /* Tailwind relative */
+  margin-bottom: 1rem; /* Tailwind mb-4 */
+  margin-right: 0.5rem; /* Tailwind mr-2 */
+}
+
+.remove-button {
+  top: 5px;
+  right: 5px;
+  color: white;
+  border-radius: 50%;
+  background-color: #ff5f5f;
+  border: none;
+  position: absolute; /* Tailwind absolute */
+  right: 0.75rem; /* Tailwind right-3 */
+  transform: translate(
+    80%,
+    -50%
+  ); /* Tailwind translate-x-1/2 -translate-y-1/2 */
+  display: flex; /* Tailwind flex */
+  justify-content: center; /* Tailwind justify-center */
+  align-items: center;
+  width: 20px; /* Tailwind w-8 */
+  height: 20px; /* Tailwind h-8 */
+}
+
+.file-input {
+  display: none; /* Tailwind hidden */
+}
+
+.placeholder-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem; /* Tailwind mb-2 */
+  width: 100%;
+}
+
+.placeholder-text {
+  color: #6b7280; /* Tailwind text-gray-600 */
+}

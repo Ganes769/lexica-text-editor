@@ -1,0 +1,127 @@
+/* ImageNode.css */
+
+.image-caption-button {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: #333;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 8px 0;
+  padding: 4px 8px;
+  position: absolute;
+  z-index: 2;
+}
+/* Image Resizer Styles */
+/* Image Resizer Styles */
+.image-control-wrapper {
+  position: relative;
+  border: 1px solid #ddd; /* Add border to the wrapper */
+  border-radius: 3px; /* Add border-radius to the wrapper */
+  overflow: hidden; /* Hide the part of the resizer div that exceeds the border */
+}
+
+.image-control-wrapper--resizing {
+  cursor: ew-resize;
+}
+
+.editor-image {
+  cursor: default;
+  display: inline-block;
+  position: relative;
+  user-select: none;
+}
+.image-resizer {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #3c84f4;
+  z-index: 10;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.image-resizer-n {
+  top: -4px; /* Adjust the top position */
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: ns-resize;
+}
+
+.image-resizer-ne {
+  right: -4px;
+  top: -4px; /* Adjust the top position */
+  cursor: nesw-resize;
+}
+
+.image-resizer-e {
+  top: 50%;
+  right: -4px; /* Adjust the right position */
+  transform: translateY(-50%);
+  cursor: ew-resize;
+}
+
+.image-resizer-se {
+  bottom: -2px; /* Adjust the bottom position */
+  right: -5px; /* Adjust the right position */
+  cursor: nwse-resize;
+}
+
+.image-resizer-s {
+  bottom: -4px; /* Adjust the bottom position */
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: ns-resize;
+}
+
+.image-resizer-sw {
+  bottom: -4px; /* Adjust the bottom position */
+  left: -4px; /* Adjust the left position */
+  cursor: nesw-resize;
+}
+
+.image-resizer-w {
+  top: 50%;
+  left: -4px; /* Adjust the left position */
+  transform: translateY(-50%);
+  cursor: ew-resize;
+}
+
+.image-resizer-nw {
+  top: -4px; /* Adjust the top position */
+  left: -4px; /* Adjust the left position */
+  cursor: nwse-resize;
+}
+
+.image-resizer:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.focused {
+  outline: 2px solid #007bff;
+}
+
+.draggable {
+  cursor: move;
+}
+
+.image-caption-container {
+  margin-top: 8px;
+  position: relative;
+}
+
+.ImageNode__contentEditable {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 4px 8px;
+  min-height: 24px;
+}
+
+.ImageNode__placeholder {
+  color: #999;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  pointer-events: none;
+  user-select: none;
+}
